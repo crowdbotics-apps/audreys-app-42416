@@ -1,6 +1,6 @@
 import axios from "axios"
 const gentlefogAPI = axios.create({
-  baseURL: "https://gentle-fog-42416.botics.co",
+  baseURL: "https://audreys-app-42416.botics.co",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_docs_schema_retrieve(payload) {
